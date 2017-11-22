@@ -1,0 +1,60 @@
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+  }
+}
+
+input { 
+  outline:none;
+  border: 0;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+  margin:0px;
+  padding:0px;
+  border:none;
+  list-style:none;
+}
+
+
+.lf {
+    float: left;
+}
+.rt {
+    float: right;
+}
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.out:before{
+  content:'';
+  display: table;
+  visibility: hidden;
+}
+.out:after{
+  content:'';
+  display: table;
+  visibility: hidden;
+}
+
+a{text-decoration: none;outline: none;}
+a:hover{text-decoration: none;}
+img{border:none;outline: none;display: block;}
+
+/*————— 快速书写配置  —————*/
+@b:75rem;
+.w100{width: 100%};
+.hg(@linh){height:@linh;line-height:@linh;}
+.cen{text-align: center;}
+
