@@ -1,0 +1,62 @@
+@b: 75rem;
+.hg(@linh){height:@linh;line-height:@linh;}
+
+.swip-wrapper{
+	background: #fff;
+	padding: 10/@b 0;
+}
+
+.SwipeContent{
+	width: 100%;
+
+	.carousel-item{
+		width: 100%;
+		text-align: center;
+		li{
+			width: 25%;
+			height: 150/@b;
+			float: left;
+			margin-top: 5/@b;
+			dt{
+				width: 100/@b;
+				.hg(100/@b);
+				margin: 0 auto;
+				// background: #3EBEF7;
+				border-radius: 50%;
+				// border: 2/@b solid #3EBEF7;
+				text-align: center;
+				font-size: 50/@b;
+				color: #fff;
+				i{
+					font-size: 45/@b;
+					color: #fff;
+				}
+			}
+			dd{
+				.hg(50/@b);
+				color: #CF7F6C
+			}
+		}
+	}
+}
+
+.swipePoint{
+	width: 100%;
+	ul{
+		width: 300/@b;
+		margin: 0 auto;
+		text-align: center;
+		li{
+			width: 20/@b;
+			height: 20/@b;
+			margin: 0 10/@b;
+			display: inline-block;
+			border-radius: 50%;
+			background: #ddd;
+			&.selectd{
+				background: #F15524;
+			}
+		}
+	}
+}
+

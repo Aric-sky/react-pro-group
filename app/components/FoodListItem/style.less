@@ -1,0 +1,49 @@
+@b: 75rem;
+.hg(@linh){height:@linh;line-height:@linh;}
+
+
+.FoodListItem{
+	width:100%;
+	.item-box{
+		margin-bottom: 10/@b;
+		background: #fff;
+		padding: 10/@b 0;
+	}
+	.item-lf{
+		width: 30%;
+		height: 160/@b;
+		overflow: hidden;
+		img{
+			width: 95%;
+			margin: 0 auto;
+		}
+	}
+	.item-rt{
+		width: 65%;
+		padding-right: 10/@b;
+		dl{
+			width: 100%;
+			height: 160/@b;
+			.point1{
+				font-size: 30/@b;
+				height: 70/@b;
+				line-height: 35/@b;
+				font-weight: 600;
+				overflow: hidden;
+			}
+			.point2{
+				color: #7A7A7A;
+				font-size: 25/@b;
+				margin-bottom: 10/@b;
+				.hg(50/@b);
+				overflow: hidden;
+			}
+			.point3{
+				color: #7A7A7A;
+				font-size: 25/@b;
+				.hg(30/@b);
+				overflow: hidden;
+			}
+		}
+	}
+}
