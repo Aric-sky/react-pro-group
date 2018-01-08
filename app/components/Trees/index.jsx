@@ -36,7 +36,9 @@ class Trees extends React.Component {
   render() {
     return (
      <div>
-       <h1>点击更改动画</h1>
+       <div className="masked">  
+        <h1>点击更改动画</h1>
+       </div>
 
       <Tree
       showLine

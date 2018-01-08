@@ -14,7 +14,7 @@ class Heads extends React.Component {
   }
   render() {
     return (
-      <Row gutter={16} style={{'marginBottom': '20px'}}>
+      <Row gutter={16} style={{'marginBottom': '20px'}} className='heads'>
         <Col span={24}>
           <Card title="Animate.css" bordered={false}>
             <p><b>简介：</b>Animation.css是一个迷人的动画库，它提供了一堆很酷的，有趣的，跨浏览器的动画，你可以在项目中调用它们。</p>

@@ -4,8 +4,9 @@ import { Provider } from 'react-redux'
 import { hashHistory } from 'react-router'
 import configureStore from './store/configureStore'
 import './static/css/common.less'
+
 import 'antd/dist/antd.css'
-// import 'animate.css'
+import './static/css/them.less'
 
 
 // 创建 Redux 的 store 对象
